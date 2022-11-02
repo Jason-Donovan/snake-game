@@ -8,6 +8,9 @@ h1 {
     font-size: 20px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
+    border-style: solid;
+    border-radius: 7px;
+    
 }
 
 #restart {
@@ -21,3 +24,19 @@ h1 {
     text-align: center;
 }
 
+#t1{
+    color:#ffffff;
+    font-size: 13px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+#squarespace{
+    color:#ffffff;
+    font-size: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+}

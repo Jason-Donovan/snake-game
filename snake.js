@@ -7,8 +7,8 @@ var context;
 
 //snake
 //snake head
-var snakeX = blockSize * 5;
-var snakeY = blockSize * 5;
+var snakeX = Math.floor(Math.random() * cols) * blockSize;
+var snakeY = Math.floor(Math.random() * rows) * blockSize;
 
 //snake speed
 var velocityX = 0;
